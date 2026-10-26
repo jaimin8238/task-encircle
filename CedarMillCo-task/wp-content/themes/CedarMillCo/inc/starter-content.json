@@ -1,0 +1,264 @@
+{
+  "images": [
+    {
+      "key": "logo",
+      "file": "homepage-01.png",
+      "alt": "Cedar Mill Co. — Windows & Doors"
+    },
+    {
+      "key": "hero",
+      "file": "homepage-03.jpg",
+      "alt": "Modern residence with large windows and outdoor living space"
+    },
+    {
+      "key": "steel",
+      "file": "homepage-04.jpg",
+      "alt": "Stone residence with a tall arched steel window"
+    },
+    {
+      "key": "aluminum",
+      "file": "homepage-05.jpg",
+      "alt": "Modern residence with expansive aluminum glazing"
+    },
+    {
+      "key": "wood",
+      "file": "homepage-06.png",
+      "alt": "Warm wood entrance with large windows"
+    },
+    {
+      "key": "project",
+      "file": "homepage-07.jpg",
+      "alt": "Aerial view of Lakeside Country Club and its grounds"
+    }
+  ],
+  "sections": [
+    {
+      "acf_fc_layout": "hero",
+      "section_hidden": 0,
+      "hero_eyebrow": "Houston · Austin · Dallas · Nationwide",
+      "hero_heading": "Texas’ Premier Source for Luxury Windows & Doors",
+      "hero_body": "Architectural products. Building expertise. Unmatched service since 2006.",
+      "hero_image": "@image:hero",
+      "hero_heading_tag": "h1",
+      "hero_buttons": [
+        {
+          "button_link": {
+            "title": "Explore Our Products",
+            "url": "@page:products",
+            "target": ""
+          },
+          "button_style": "solid"
+        },
+        {
+          "button_link": {
+            "title": "Discuss a Project",
+            "url": "@url:contact/?inquiry=project#message",
+            "target": ""
+          },
+          "button_style": "outline"
+        }
+      ]
+    },
+    {
+      "acf_fc_layout": "intro_statement",
+      "section_hidden": 0,
+      "intro_eyebrow": "Cedar Mill Co.",
+      "intro_heading": "The Higher Standard",
+      "intro_body": "Cedar Mill Co. partners with leading architects, premier custom builders and discerning homeowners to bring exceptional residential and architectural projects to life. With roots in custom home building, we understand how windows and doors integrate into the entire construction process—allowing us to guide every project with knowledge, precision and attentive service before, during and long after the sale."
+    },
+    {
+      "acf_fc_layout": "product_categories",
+      "section_hidden": 0,
+      "products_eyebrow": "Curated Architectural Systems",
+      "products_heading": "Beauty. Performance. Craftsmanship.",
+      "products_link": {
+        "title": "View All Products",
+        "url": "@page:products",
+        "target": ""
+      },
+      "products_cards": [
+        {
+          "card_image": "@image:steel",
+          "card_heading": "Thermally Broken Steel",
+          "card_caption": "Architectural design · Exceptional strength",
+          "card_link": {
+            "title": "Thermally Broken Steel",
+            "url": "@url:products/#steel",
+            "target": ""
+          }
+        },
+        {
+          "card_image": "@image:aluminum",
+          "card_heading": "High-Performance Aluminum",
+          "card_caption": "Expansive glass · Modern engineering",
+          "card_link": {
+            "title": "High-Performance Aluminum",
+            "url": "@url:products/#aluminum",
+            "target": ""
+          }
+        },
+        {
+          "card_image": "@image:wood",
+          "card_heading": "Wood & Wood-Clad",
+          "card_caption": "Timeless warmth · Lasting performance",
+          "card_link": {
+            "title": "Wood & Wood-Clad",
+            "url": "@url:products/#wood",
+            "target": ""
+          }
+        }
+      ]
+    },
+    {
+      "acf_fc_layout": "value_propositions",
+      "section_hidden": 0,
+      "values_eyebrow": "More Than a Product Supplier",
+      "values_heading": "Every detail. Every step of the way.",
+      "values_body": "Our former-builder perspective helps us communicate effectively, anticipate challenges, and collaborate to find the right solution for the job.",
+      "values_link": {
+        "title": "Why Cedar Mill Co.",
+        "url": "@page:why-cedar-mill",
+        "target": ""
+      },
+      "values_items": [
+        {
+          "value_heading": "Since 2006",
+          "value_body": "Trusted expertise built over two decades"
+        },
+        {
+          "value_heading": "Full-project guidance",
+          "value_body": "Selection, specification, delivery and installation support"
+        },
+        {
+          "value_heading": "Long-term service",
+          "value_body": "Support you can count on"
+        }
+      ]
+    },
+    {
+      "acf_fc_layout": "featured_project",
+      "section_hidden": 0,
+      "project_eyebrow": "Featured Project · Houston",
+      "project_heading": "Lakeside Country Club",
+      "project_body": "A signature project reflecting the scale, refinement and enduring performance Cedar Mill Co. brings to distinguished Texas architecture.",
+      "project_image": "@image:project",
+      "project_link": {
+        "title": "View Featured Projects",
+        "url": "@url:projects/#lakeside",
+        "target": ""
+      }
+    },
+    {
+      "acf_fc_layout": "cta_band",
+      "section_hidden": 0,
+      "cta_eyebrow": "Serving Texas & Beyond",
+      "cta_heading": "Let’s bring your vision into view",
+      "cta_body": "Project support in Houston and Austin, serving Dallas and clients nationwide.",
+      "cta_link": {
+        "title": "Visit Our Showroom",
+        "url": "@url:contact/?inquiry=showroom#message",
+        "target": ""
+      }
+    },
+    {
+      "acf_fc_layout": "newsletter",
+      "section_hidden": 0,
+      "newsletter_heading": "Stay inspired",
+      "newsletter_body": "Keep me updated on what’s new at Cedar Mill Co.",
+      "newsletter_email_label": "Email address",
+      "newsletter_button_label": "Sign up",
+      "newsletter_mode": "preview",
+      "newsletter_preview_message": "Design preview only — your email has not been submitted.",
+      "newsletter_form_action": "",
+      "newsletter_email_name": "email",
+      "newsletter_hidden_fields": []
+    },
+    {
+      "acf_fc_layout": "instagram_grid",
+      "section_hidden": 0,
+      "instagram_heading": "From Instagram",
+      "instagram_link": {
+        "title": "@cedarmillco",
+        "url": "https://www.instagram.com/cedarmillco/",
+        "target": "_blank"
+      },
+      "instagram_caption": "Feed layout preview · live Instagram posts to be connected.",
+      "instagram_images": [
+        {
+          "instagram_image": "@image:steel",
+          "instagram_image_link": {
+            "title": "Visit Cedar Mill Co. on Instagram",
+            "url": "https://www.instagram.com/cedarmillco/",
+            "target": "_blank"
+          }
+        },
+        {
+          "instagram_image": "@image:aluminum",
+          "instagram_image_link": {
+            "title": "Visit Cedar Mill Co. on Instagram",
+            "url": "https://www.instagram.com/cedarmillco/",
+            "target": "_blank"
+          }
+        },
+        {
+          "instagram_image": "@image:wood",
+          "instagram_image_link": {
+            "title": "Visit Cedar Mill Co. on Instagram",
+            "url": "https://www.instagram.com/cedarmillco/",
+            "target": "_blank"
+          }
+        },
+        {
+          "instagram_image": "@image:hero",
+          "instagram_image_link": {
+            "title": "Visit Cedar Mill Co. on Instagram",
+            "url": "https://www.instagram.com/cedarmillco/",
+            "target": "_blank"
+          }
+        }
+      ]
+    }
+  ],
+  "options": {
+    "cm_brand_name": "Cedar Mill Co.",
+    "cm_header_logo": "@image:logo",
+    "cm_header_topbar": "Houston · Austin · Dallas · Nationwide",
+    "cm_header_buttons": [],
+    "cm_footer_tagline": "Luxury Windows + Doors",
+    "cm_footer_description": "Houston · Austin · Dallas · Nationwide",
+    "cm_footer_email": "info@cedarmillco.com",
+    "cm_footer_phone": "",
+    "cm_footer_copyright": "© {year} Cedar Mill Co.",
+    "cm_footer_logo": "",
+    "cm_footer_socials": [
+      {
+        "social_icon": "instagram",
+        "social_link": {
+          "title": "Instagram",
+          "url": "https://www.instagram.com/cedarmillco/",
+          "target": "_blank"
+        }
+      }
+    ],
+    "cm_footer_offices": [
+      {
+        "office_name": "Houston",
+        "office_address": "6608 Brittmoore Rd Ste 900\nHouston, TX 77041",
+        "office_phone": "(713) 984-2600",
+        "office_email": "",
+        "office_link": {
+          "title": "Book a Showroom Visit",
+          "url": "@url:contact/?inquiry=showroom#message",
+          "target": ""
+        }
+      },
+      {
+        "office_name": "Austin",
+        "office_address": "520 CR 108 Suite 14\nHutto, TX 78634",
+        "office_phone": "(512) 838-1306",
+        "office_email": "",
+        "office_link": ""
+      }
+    ]
+  }
+}

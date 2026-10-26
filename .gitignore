@@ -1,0 +1,7 @@
+task-encircle-jaimin-ranpura.zip
+credential.txt
+*.sql
+CedarMillCo-task/wp-config.php
+__MACOSX/
+.DS_Store
+**/.DS_Store

@@ -1,0 +1,1811 @@
+[
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections",
+    "type": "flexible_content",
+    "label": "Homepage Sections",
+    "name": "cm_homepage_sections",
+    "default": null,
+    "key": "field_cm_homepage_sections"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 01 · Hero (`hero`)",
+    "type": "true_false",
+    "label": "Hide This Section",
+    "name": "section_hidden",
+    "default": 0,
+    "key": "field_cm_hero_hidden"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 01 · Hero (`hero`)",
+    "type": "text",
+    "label": "Hero — Eyebrow",
+    "name": "hero_eyebrow",
+    "default": "",
+    "key": "field_cm_hero_eyebrow"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 01 · Hero (`hero`)",
+    "type": "text",
+    "label": "Hero — Heading",
+    "name": "hero_heading",
+    "default": "",
+    "key": "field_cm_hero_heading"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 01 · Hero (`hero`)",
+    "type": "select",
+    "label": "Hero — Heading Level",
+    "name": "hero_heading_tag",
+    "default": "h1",
+    "key": "field_cm_hero_heading_tag"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 01 · Hero (`hero`)",
+    "type": "textarea",
+    "label": "Hero — Supporting Text",
+    "name": "hero_body",
+    "default": "",
+    "key": "field_cm_hero_body"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 01 · Hero (`hero`)",
+    "type": "image",
+    "label": "Hero — Background Image",
+    "name": "hero_image",
+    "default": null,
+    "key": "field_cm_hero_image"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 01 · Hero (`hero`)",
+    "type": "repeater",
+    "label": "Hero — Buttons",
+    "name": "hero_buttons",
+    "default": null,
+    "key": "field_cm_hero_buttons"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 01 · Hero (`hero`) → Hero — Buttons (row)",
+    "type": "link",
+    "label": "Button — Link",
+    "name": "button_link",
+    "default": null,
+    "key": "field_cm_hero_button_link"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 01 · Hero (`hero`) → Hero — Buttons (row)",
+    "type": "select",
+    "label": "Button — Style",
+    "name": "button_style",
+    "default": "solid",
+    "key": "field_cm_hero_button_style"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 01 · Hero (`hero`)",
+    "type": "group",
+    "label": "Section — Optional Colors",
+    "name": "section_design",
+    "default": null,
+    "key": "field_cm_hero_section_design"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 01 · Hero (`hero`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Background Color",
+    "name": "background_color",
+    "default": "",
+    "key": "field_cm_hero_design_background_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 01 · Hero (`hero`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Heading Color",
+    "name": "heading_color",
+    "default": "",
+    "key": "field_cm_hero_design_heading_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 01 · Hero (`hero`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Text Color",
+    "name": "text_color",
+    "default": "",
+    "key": "field_cm_hero_design_text_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 01 · Hero (`hero`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Eyebrow Color",
+    "name": "eyebrow_color",
+    "default": "",
+    "key": "field_cm_hero_design_eyebrow_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 01 · Hero (`hero`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Link Color",
+    "name": "link_color",
+    "default": "",
+    "key": "field_cm_hero_design_link_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 01 · Hero (`hero`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Buttons — Background Color",
+    "name": "button_background_color",
+    "default": "",
+    "key": "field_cm_hero_design_button_background_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 01 · Hero (`hero`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Buttons — Text Color",
+    "name": "button_text_color",
+    "default": "",
+    "key": "field_cm_hero_design_button_text_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 01 · Hero (`hero`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Inputs — Background Color",
+    "name": "input_background_color",
+    "default": "",
+    "key": "field_cm_hero_design_input_background_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 01 · Hero (`hero`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Inputs — Text Color",
+    "name": "input_text_color",
+    "default": "",
+    "key": "field_cm_hero_design_input_text_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 01 · Hero (`hero`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Border Color",
+    "name": "border_color",
+    "default": "",
+    "key": "field_cm_hero_design_border_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 01 · Hero (`hero`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Hero / Project — Overlay Color",
+    "name": "overlay_color",
+    "default": "",
+    "key": "field_cm_hero_design_overlay_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 01 · Hero (`hero`) → Section — Optional Colors (group)",
+    "type": "range",
+    "label": "Hero / Project — Overlay Opacity",
+    "name": "overlay_opacity",
+    "default": 65,
+    "key": "field_cm_hero_design_overlay_opacity"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 02 · Intro Statement (`intro_statement`)",
+    "type": "true_false",
+    "label": "Hide This Section",
+    "name": "section_hidden",
+    "default": 0,
+    "key": "field_cm_intro_statement_hidden"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 02 · Intro Statement (`intro_statement`)",
+    "type": "text",
+    "label": "Intro — Eyebrow",
+    "name": "intro_eyebrow",
+    "default": "",
+    "key": "field_cm_intro_eyebrow"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 02 · Intro Statement (`intro_statement`)",
+    "type": "text",
+    "label": "Intro — Heading",
+    "name": "intro_heading",
+    "default": "",
+    "key": "field_cm_intro_heading"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 02 · Intro Statement (`intro_statement`)",
+    "type": "textarea",
+    "label": "Intro — Description",
+    "name": "intro_body",
+    "default": "",
+    "key": "field_cm_intro_body"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 02 · Intro Statement (`intro_statement`)",
+    "type": "group",
+    "label": "Section — Optional Colors",
+    "name": "section_design",
+    "default": null,
+    "key": "field_cm_intro_statement_section_design"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 02 · Intro Statement (`intro_statement`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Background Color",
+    "name": "background_color",
+    "default": "",
+    "key": "field_cm_intro_statement_design_background_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 02 · Intro Statement (`intro_statement`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Heading Color",
+    "name": "heading_color",
+    "default": "",
+    "key": "field_cm_intro_statement_design_heading_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 02 · Intro Statement (`intro_statement`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Text Color",
+    "name": "text_color",
+    "default": "",
+    "key": "field_cm_intro_statement_design_text_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 02 · Intro Statement (`intro_statement`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Eyebrow Color",
+    "name": "eyebrow_color",
+    "default": "",
+    "key": "field_cm_intro_statement_design_eyebrow_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 02 · Intro Statement (`intro_statement`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Link Color",
+    "name": "link_color",
+    "default": "",
+    "key": "field_cm_intro_statement_design_link_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 02 · Intro Statement (`intro_statement`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Buttons — Background Color",
+    "name": "button_background_color",
+    "default": "",
+    "key": "field_cm_intro_statement_design_button_background_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 02 · Intro Statement (`intro_statement`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Buttons — Text Color",
+    "name": "button_text_color",
+    "default": "",
+    "key": "field_cm_intro_statement_design_button_text_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 02 · Intro Statement (`intro_statement`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Inputs — Background Color",
+    "name": "input_background_color",
+    "default": "",
+    "key": "field_cm_intro_statement_design_input_background_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 02 · Intro Statement (`intro_statement`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Inputs — Text Color",
+    "name": "input_text_color",
+    "default": "",
+    "key": "field_cm_intro_statement_design_input_text_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 02 · Intro Statement (`intro_statement`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Border Color",
+    "name": "border_color",
+    "default": "",
+    "key": "field_cm_intro_statement_design_border_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 02 · Intro Statement (`intro_statement`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Hero / Project — Overlay Color",
+    "name": "overlay_color",
+    "default": "",
+    "key": "field_cm_intro_statement_design_overlay_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 02 · Intro Statement (`intro_statement`) → Section — Optional Colors (group)",
+    "type": "range",
+    "label": "Hero / Project — Overlay Opacity",
+    "name": "overlay_opacity",
+    "default": 65,
+    "key": "field_cm_intro_statement_design_overlay_opacity"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 03 · Product Categories (`product_categories`)",
+    "type": "true_false",
+    "label": "Hide This Section",
+    "name": "section_hidden",
+    "default": 0,
+    "key": "field_cm_product_categories_hidden"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 03 · Product Categories (`product_categories`)",
+    "type": "text",
+    "label": "Products — Eyebrow",
+    "name": "products_eyebrow",
+    "default": "",
+    "key": "field_cm_products_eyebrow"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 03 · Product Categories (`product_categories`)",
+    "type": "text",
+    "label": "Products — Heading",
+    "name": "products_heading",
+    "default": "",
+    "key": "field_cm_products_heading"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 03 · Product Categories (`product_categories`)",
+    "type": "link",
+    "label": "Products — View All Link",
+    "name": "products_link",
+    "default": null,
+    "key": "field_cm_products_link"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 03 · Product Categories (`product_categories`)",
+    "type": "repeater",
+    "label": "Products — Cards",
+    "name": "products_cards",
+    "default": null,
+    "key": "field_cm_products_cards"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 03 · Product Categories (`product_categories`) → Products — Cards (row)",
+    "type": "image",
+    "label": "Card — Image",
+    "name": "card_image",
+    "default": null,
+    "key": "field_cm_product_card_image"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 03 · Product Categories (`product_categories`) → Products — Cards (row)",
+    "type": "text",
+    "label": "Card — Heading",
+    "name": "card_heading",
+    "default": "",
+    "key": "field_cm_product_card_heading"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 03 · Product Categories (`product_categories`) → Products — Cards (row)",
+    "type": "text",
+    "label": "Card — Caption",
+    "name": "card_caption",
+    "default": "",
+    "key": "field_cm_product_card_caption"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 03 · Product Categories (`product_categories`) → Products — Cards (row)",
+    "type": "link",
+    "label": "Card — Link",
+    "name": "card_link",
+    "default": null,
+    "key": "field_cm_product_card_link"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 03 · Product Categories (`product_categories`)",
+    "type": "group",
+    "label": "Section — Optional Colors",
+    "name": "section_design",
+    "default": null,
+    "key": "field_cm_product_categories_section_design"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 03 · Product Categories (`product_categories`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Background Color",
+    "name": "background_color",
+    "default": "",
+    "key": "field_cm_product_categories_design_background_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 03 · Product Categories (`product_categories`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Heading Color",
+    "name": "heading_color",
+    "default": "",
+    "key": "field_cm_product_categories_design_heading_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 03 · Product Categories (`product_categories`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Text Color",
+    "name": "text_color",
+    "default": "",
+    "key": "field_cm_product_categories_design_text_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 03 · Product Categories (`product_categories`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Eyebrow Color",
+    "name": "eyebrow_color",
+    "default": "",
+    "key": "field_cm_product_categories_design_eyebrow_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 03 · Product Categories (`product_categories`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Link Color",
+    "name": "link_color",
+    "default": "",
+    "key": "field_cm_product_categories_design_link_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 03 · Product Categories (`product_categories`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Buttons — Background Color",
+    "name": "button_background_color",
+    "default": "",
+    "key": "field_cm_product_categories_design_button_background_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 03 · Product Categories (`product_categories`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Buttons — Text Color",
+    "name": "button_text_color",
+    "default": "",
+    "key": "field_cm_product_categories_design_button_text_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 03 · Product Categories (`product_categories`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Inputs — Background Color",
+    "name": "input_background_color",
+    "default": "",
+    "key": "field_cm_product_categories_design_input_background_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 03 · Product Categories (`product_categories`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Inputs — Text Color",
+    "name": "input_text_color",
+    "default": "",
+    "key": "field_cm_product_categories_design_input_text_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 03 · Product Categories (`product_categories`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Border Color",
+    "name": "border_color",
+    "default": "",
+    "key": "field_cm_product_categories_design_border_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 03 · Product Categories (`product_categories`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Hero / Project — Overlay Color",
+    "name": "overlay_color",
+    "default": "",
+    "key": "field_cm_product_categories_design_overlay_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 03 · Product Categories (`product_categories`) → Section — Optional Colors (group)",
+    "type": "range",
+    "label": "Hero / Project — Overlay Opacity",
+    "name": "overlay_opacity",
+    "default": 65,
+    "key": "field_cm_product_categories_design_overlay_opacity"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 04 · Every Detail / Value Propositions (`value_propositions`)",
+    "type": "true_false",
+    "label": "Hide This Section",
+    "name": "section_hidden",
+    "default": 0,
+    "key": "field_cm_value_propositions_hidden"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 04 · Every Detail / Value Propositions (`value_propositions`)",
+    "type": "text",
+    "label": "Values — Eyebrow",
+    "name": "values_eyebrow",
+    "default": "",
+    "key": "field_cm_values_eyebrow"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 04 · Every Detail / Value Propositions (`value_propositions`)",
+    "type": "text",
+    "label": "Values — Heading",
+    "name": "values_heading",
+    "default": "",
+    "key": "field_cm_values_heading"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 04 · Every Detail / Value Propositions (`value_propositions`)",
+    "type": "textarea",
+    "label": "Values — Description",
+    "name": "values_body",
+    "default": "",
+    "key": "field_cm_values_body"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 04 · Every Detail / Value Propositions (`value_propositions`)",
+    "type": "link",
+    "label": "Values — Link",
+    "name": "values_link",
+    "default": null,
+    "key": "field_cm_values_link"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 04 · Every Detail / Value Propositions (`value_propositions`)",
+    "type": "repeater",
+    "label": "Values — Items",
+    "name": "values_items",
+    "default": null,
+    "key": "field_cm_values_items"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 04 · Every Detail / Value Propositions (`value_propositions`) → Values — Items (row)",
+    "type": "text",
+    "label": "Value — Heading",
+    "name": "value_heading",
+    "default": "",
+    "key": "field_cm_value_item_heading"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 04 · Every Detail / Value Propositions (`value_propositions`) → Values — Items (row)",
+    "type": "textarea",
+    "label": "Value — Description",
+    "name": "value_body",
+    "default": "",
+    "key": "field_cm_value_item_body"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 04 · Every Detail / Value Propositions (`value_propositions`)",
+    "type": "group",
+    "label": "Section — Optional Colors",
+    "name": "section_design",
+    "default": null,
+    "key": "field_cm_value_propositions_section_design"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 04 · Every Detail / Value Propositions (`value_propositions`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Background Color",
+    "name": "background_color",
+    "default": "",
+    "key": "field_cm_value_propositions_design_background_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 04 · Every Detail / Value Propositions (`value_propositions`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Heading Color",
+    "name": "heading_color",
+    "default": "",
+    "key": "field_cm_value_propositions_design_heading_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 04 · Every Detail / Value Propositions (`value_propositions`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Text Color",
+    "name": "text_color",
+    "default": "",
+    "key": "field_cm_value_propositions_design_text_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 04 · Every Detail / Value Propositions (`value_propositions`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Eyebrow Color",
+    "name": "eyebrow_color",
+    "default": "",
+    "key": "field_cm_value_propositions_design_eyebrow_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 04 · Every Detail / Value Propositions (`value_propositions`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Link Color",
+    "name": "link_color",
+    "default": "",
+    "key": "field_cm_value_propositions_design_link_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 04 · Every Detail / Value Propositions (`value_propositions`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Buttons — Background Color",
+    "name": "button_background_color",
+    "default": "",
+    "key": "field_cm_value_propositions_design_button_background_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 04 · Every Detail / Value Propositions (`value_propositions`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Buttons — Text Color",
+    "name": "button_text_color",
+    "default": "",
+    "key": "field_cm_value_propositions_design_button_text_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 04 · Every Detail / Value Propositions (`value_propositions`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Inputs — Background Color",
+    "name": "input_background_color",
+    "default": "",
+    "key": "field_cm_value_propositions_design_input_background_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 04 · Every Detail / Value Propositions (`value_propositions`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Inputs — Text Color",
+    "name": "input_text_color",
+    "default": "",
+    "key": "field_cm_value_propositions_design_input_text_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 04 · Every Detail / Value Propositions (`value_propositions`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Border Color",
+    "name": "border_color",
+    "default": "",
+    "key": "field_cm_value_propositions_design_border_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 04 · Every Detail / Value Propositions (`value_propositions`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Hero / Project — Overlay Color",
+    "name": "overlay_color",
+    "default": "",
+    "key": "field_cm_value_propositions_design_overlay_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 04 · Every Detail / Value Propositions (`value_propositions`) → Section — Optional Colors (group)",
+    "type": "range",
+    "label": "Hero / Project — Overlay Opacity",
+    "name": "overlay_opacity",
+    "default": 65,
+    "key": "field_cm_value_propositions_design_overlay_opacity"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 05 · Featured Project (`featured_project`)",
+    "type": "true_false",
+    "label": "Hide This Section",
+    "name": "section_hidden",
+    "default": 0,
+    "key": "field_cm_featured_project_hidden"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 05 · Featured Project (`featured_project`)",
+    "type": "text",
+    "label": "Project — Eyebrow",
+    "name": "project_eyebrow",
+    "default": "",
+    "key": "field_cm_project_eyebrow"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 05 · Featured Project (`featured_project`)",
+    "type": "text",
+    "label": "Project — Heading",
+    "name": "project_heading",
+    "default": "",
+    "key": "field_cm_project_heading"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 05 · Featured Project (`featured_project`)",
+    "type": "textarea",
+    "label": "Project — Description",
+    "name": "project_body",
+    "default": "",
+    "key": "field_cm_project_body"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 05 · Featured Project (`featured_project`)",
+    "type": "image",
+    "label": "Project — Background Image",
+    "name": "project_image",
+    "default": null,
+    "key": "field_cm_project_image"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 05 · Featured Project (`featured_project`)",
+    "type": "link",
+    "label": "Project — Button",
+    "name": "project_link",
+    "default": null,
+    "key": "field_cm_project_link"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 05 · Featured Project (`featured_project`)",
+    "type": "group",
+    "label": "Section — Optional Colors",
+    "name": "section_design",
+    "default": null,
+    "key": "field_cm_featured_project_section_design"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 05 · Featured Project (`featured_project`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Background Color",
+    "name": "background_color",
+    "default": "",
+    "key": "field_cm_featured_project_design_background_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 05 · Featured Project (`featured_project`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Heading Color",
+    "name": "heading_color",
+    "default": "",
+    "key": "field_cm_featured_project_design_heading_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 05 · Featured Project (`featured_project`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Text Color",
+    "name": "text_color",
+    "default": "",
+    "key": "field_cm_featured_project_design_text_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 05 · Featured Project (`featured_project`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Eyebrow Color",
+    "name": "eyebrow_color",
+    "default": "",
+    "key": "field_cm_featured_project_design_eyebrow_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 05 · Featured Project (`featured_project`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Link Color",
+    "name": "link_color",
+    "default": "",
+    "key": "field_cm_featured_project_design_link_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 05 · Featured Project (`featured_project`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Buttons — Background Color",
+    "name": "button_background_color",
+    "default": "",
+    "key": "field_cm_featured_project_design_button_background_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 05 · Featured Project (`featured_project`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Buttons — Text Color",
+    "name": "button_text_color",
+    "default": "",
+    "key": "field_cm_featured_project_design_button_text_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 05 · Featured Project (`featured_project`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Inputs — Background Color",
+    "name": "input_background_color",
+    "default": "",
+    "key": "field_cm_featured_project_design_input_background_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 05 · Featured Project (`featured_project`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Inputs — Text Color",
+    "name": "input_text_color",
+    "default": "",
+    "key": "field_cm_featured_project_design_input_text_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 05 · Featured Project (`featured_project`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Border Color",
+    "name": "border_color",
+    "default": "",
+    "key": "field_cm_featured_project_design_border_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 05 · Featured Project (`featured_project`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Hero / Project — Overlay Color",
+    "name": "overlay_color",
+    "default": "",
+    "key": "field_cm_featured_project_design_overlay_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 05 · Featured Project (`featured_project`) → Section — Optional Colors (group)",
+    "type": "range",
+    "label": "Hero / Project — Overlay Opacity",
+    "name": "overlay_opacity",
+    "default": 65,
+    "key": "field_cm_featured_project_design_overlay_opacity"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 06 · CTA Band (`cta_band`)",
+    "type": "true_false",
+    "label": "Hide This Section",
+    "name": "section_hidden",
+    "default": 0,
+    "key": "field_cm_cta_band_hidden"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 06 · CTA Band (`cta_band`)",
+    "type": "text",
+    "label": "CTA — Eyebrow",
+    "name": "cta_eyebrow",
+    "default": "",
+    "key": "field_cm_cta_eyebrow"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 06 · CTA Band (`cta_band`)",
+    "type": "text",
+    "label": "CTA — Heading",
+    "name": "cta_heading",
+    "default": "",
+    "key": "field_cm_cta_heading"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 06 · CTA Band (`cta_band`)",
+    "type": "textarea",
+    "label": "CTA — Description",
+    "name": "cta_body",
+    "default": "",
+    "key": "field_cm_cta_body"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 06 · CTA Band (`cta_band`)",
+    "type": "link",
+    "label": "CTA — Button",
+    "name": "cta_link",
+    "default": null,
+    "key": "field_cm_cta_link"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 06 · CTA Band (`cta_band`)",
+    "type": "group",
+    "label": "Section — Optional Colors",
+    "name": "section_design",
+    "default": null,
+    "key": "field_cm_cta_band_section_design"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 06 · CTA Band (`cta_band`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Background Color",
+    "name": "background_color",
+    "default": "",
+    "key": "field_cm_cta_band_design_background_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 06 · CTA Band (`cta_band`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Heading Color",
+    "name": "heading_color",
+    "default": "",
+    "key": "field_cm_cta_band_design_heading_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 06 · CTA Band (`cta_band`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Text Color",
+    "name": "text_color",
+    "default": "",
+    "key": "field_cm_cta_band_design_text_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 06 · CTA Band (`cta_band`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Eyebrow Color",
+    "name": "eyebrow_color",
+    "default": "",
+    "key": "field_cm_cta_band_design_eyebrow_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 06 · CTA Band (`cta_band`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Link Color",
+    "name": "link_color",
+    "default": "",
+    "key": "field_cm_cta_band_design_link_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 06 · CTA Band (`cta_band`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Buttons — Background Color",
+    "name": "button_background_color",
+    "default": "",
+    "key": "field_cm_cta_band_design_button_background_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 06 · CTA Band (`cta_band`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Buttons — Text Color",
+    "name": "button_text_color",
+    "default": "",
+    "key": "field_cm_cta_band_design_button_text_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 06 · CTA Band (`cta_band`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Inputs — Background Color",
+    "name": "input_background_color",
+    "default": "",
+    "key": "field_cm_cta_band_design_input_background_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 06 · CTA Band (`cta_band`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Inputs — Text Color",
+    "name": "input_text_color",
+    "default": "",
+    "key": "field_cm_cta_band_design_input_text_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 06 · CTA Band (`cta_band`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Border Color",
+    "name": "border_color",
+    "default": "",
+    "key": "field_cm_cta_band_design_border_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 06 · CTA Band (`cta_band`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Hero / Project — Overlay Color",
+    "name": "overlay_color",
+    "default": "",
+    "key": "field_cm_cta_band_design_overlay_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 06 · CTA Band (`cta_band`) → Section — Optional Colors (group)",
+    "type": "range",
+    "label": "Hero / Project — Overlay Opacity",
+    "name": "overlay_opacity",
+    "default": 65,
+    "key": "field_cm_cta_band_design_overlay_opacity"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 07 · Newsletter (`newsletter`)",
+    "type": "true_false",
+    "label": "Hide This Section",
+    "name": "section_hidden",
+    "default": 0,
+    "key": "field_cm_newsletter_hidden"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 07 · Newsletter (`newsletter`)",
+    "type": "text",
+    "label": "Newsletter — Heading",
+    "name": "newsletter_heading",
+    "default": "",
+    "key": "field_cm_newsletter_heading"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 07 · Newsletter (`newsletter`)",
+    "type": "textarea",
+    "label": "Newsletter — Description",
+    "name": "newsletter_body",
+    "default": "",
+    "key": "field_cm_newsletter_body"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 07 · Newsletter (`newsletter`)",
+    "type": "text",
+    "label": "Newsletter — Email Label / Placeholder",
+    "name": "newsletter_email_label",
+    "default": "Email address",
+    "key": "field_cm_newsletter_email_label"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 07 · Newsletter (`newsletter`)",
+    "type": "text",
+    "label": "Newsletter — Button Label",
+    "name": "newsletter_button_label",
+    "default": "Sign up",
+    "key": "field_cm_newsletter_button_label"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 07 · Newsletter (`newsletter`)",
+    "type": "select",
+    "label": "Newsletter — Form Mode",
+    "name": "newsletter_mode",
+    "default": "preview",
+    "key": "field_cm_newsletter_mode"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 07 · Newsletter (`newsletter`)",
+    "type": "text",
+    "label": "Newsletter — Preview Message",
+    "name": "newsletter_preview_message",
+    "default": "Design preview only — your email has not been submitted.",
+    "key": "field_cm_newsletter_preview_message"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 07 · Newsletter (`newsletter`)",
+    "type": "url",
+    "label": "Newsletter — Provider Form Action URL",
+    "name": "newsletter_form_action",
+    "default": "",
+    "key": "field_cm_newsletter_form_action"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 07 · Newsletter (`newsletter`)",
+    "type": "text",
+    "label": "Newsletter — Provider Email Field Name",
+    "name": "newsletter_email_name",
+    "default": "email",
+    "key": "field_cm_newsletter_email_name"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 07 · Newsletter (`newsletter`)",
+    "type": "repeater",
+    "label": "Newsletter — Provider Hidden Fields",
+    "name": "newsletter_hidden_fields",
+    "default": null,
+    "key": "field_cm_newsletter_hidden_fields"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 07 · Newsletter (`newsletter`) → Newsletter — Provider Hidden Fields (row)",
+    "type": "text",
+    "label": "Hidden Field — Name",
+    "name": "hidden_name",
+    "default": "",
+    "key": "field_cm_newsletter_hidden_name"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 07 · Newsletter (`newsletter`) → Newsletter — Provider Hidden Fields (row)",
+    "type": "text",
+    "label": "Hidden Field — Value",
+    "name": "hidden_value",
+    "default": "",
+    "key": "field_cm_newsletter_hidden_value"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 07 · Newsletter (`newsletter`)",
+    "type": "group",
+    "label": "Section — Optional Colors",
+    "name": "section_design",
+    "default": null,
+    "key": "field_cm_newsletter_section_design"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 07 · Newsletter (`newsletter`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Background Color",
+    "name": "background_color",
+    "default": "",
+    "key": "field_cm_newsletter_design_background_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 07 · Newsletter (`newsletter`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Heading Color",
+    "name": "heading_color",
+    "default": "",
+    "key": "field_cm_newsletter_design_heading_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 07 · Newsletter (`newsletter`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Text Color",
+    "name": "text_color",
+    "default": "",
+    "key": "field_cm_newsletter_design_text_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 07 · Newsletter (`newsletter`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Eyebrow Color",
+    "name": "eyebrow_color",
+    "default": "",
+    "key": "field_cm_newsletter_design_eyebrow_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 07 · Newsletter (`newsletter`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Link Color",
+    "name": "link_color",
+    "default": "",
+    "key": "field_cm_newsletter_design_link_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 07 · Newsletter (`newsletter`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Buttons — Background Color",
+    "name": "button_background_color",
+    "default": "",
+    "key": "field_cm_newsletter_design_button_background_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 07 · Newsletter (`newsletter`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Buttons — Text Color",
+    "name": "button_text_color",
+    "default": "",
+    "key": "field_cm_newsletter_design_button_text_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 07 · Newsletter (`newsletter`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Inputs — Background Color",
+    "name": "input_background_color",
+    "default": "",
+    "key": "field_cm_newsletter_design_input_background_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 07 · Newsletter (`newsletter`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Inputs — Text Color",
+    "name": "input_text_color",
+    "default": "",
+    "key": "field_cm_newsletter_design_input_text_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 07 · Newsletter (`newsletter`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Border Color",
+    "name": "border_color",
+    "default": "",
+    "key": "field_cm_newsletter_design_border_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 07 · Newsletter (`newsletter`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Hero / Project — Overlay Color",
+    "name": "overlay_color",
+    "default": "",
+    "key": "field_cm_newsletter_design_overlay_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 07 · Newsletter (`newsletter`) → Section — Optional Colors (group)",
+    "type": "range",
+    "label": "Hero / Project — Overlay Opacity",
+    "name": "overlay_opacity",
+    "default": 65,
+    "key": "field_cm_newsletter_design_overlay_opacity"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 08 · Instagram Grid (`instagram_grid`)",
+    "type": "true_false",
+    "label": "Hide This Section",
+    "name": "section_hidden",
+    "default": 0,
+    "key": "field_cm_instagram_grid_hidden"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 08 · Instagram Grid (`instagram_grid`)",
+    "type": "text",
+    "label": "Instagram — Heading",
+    "name": "instagram_heading",
+    "default": "",
+    "key": "field_cm_instagram_heading"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 08 · Instagram Grid (`instagram_grid`)",
+    "type": "link",
+    "label": "Instagram — Profile Link",
+    "name": "instagram_link",
+    "default": null,
+    "key": "field_cm_instagram_link"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 08 · Instagram Grid (`instagram_grid`)",
+    "type": "repeater",
+    "label": "Instagram — Static Images",
+    "name": "instagram_images",
+    "default": null,
+    "key": "field_cm_instagram_images"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 08 · Instagram Grid (`instagram_grid`) → Instagram — Static Images (row)",
+    "type": "image",
+    "label": "Instagram — Image",
+    "name": "instagram_image",
+    "default": null,
+    "key": "field_cm_instagram_item_image"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 08 · Instagram Grid (`instagram_grid`) → Instagram — Static Images (row)",
+    "type": "link",
+    "label": "Instagram — Image Link",
+    "name": "instagram_image_link",
+    "default": null,
+    "key": "field_cm_instagram_item_link"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 08 · Instagram Grid (`instagram_grid`)",
+    "type": "text",
+    "label": "Instagram — Caption",
+    "name": "instagram_caption",
+    "default": "",
+    "key": "field_cm_instagram_caption"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 08 · Instagram Grid (`instagram_grid`)",
+    "type": "group",
+    "label": "Section — Optional Colors",
+    "name": "section_design",
+    "default": null,
+    "key": "field_cm_instagram_grid_section_design"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 08 · Instagram Grid (`instagram_grid`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Background Color",
+    "name": "background_color",
+    "default": "",
+    "key": "field_cm_instagram_grid_design_background_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 08 · Instagram Grid (`instagram_grid`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Heading Color",
+    "name": "heading_color",
+    "default": "",
+    "key": "field_cm_instagram_grid_design_heading_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 08 · Instagram Grid (`instagram_grid`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Text Color",
+    "name": "text_color",
+    "default": "",
+    "key": "field_cm_instagram_grid_design_text_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 08 · Instagram Grid (`instagram_grid`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Eyebrow Color",
+    "name": "eyebrow_color",
+    "default": "",
+    "key": "field_cm_instagram_grid_design_eyebrow_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 08 · Instagram Grid (`instagram_grid`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Link Color",
+    "name": "link_color",
+    "default": "",
+    "key": "field_cm_instagram_grid_design_link_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 08 · Instagram Grid (`instagram_grid`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Buttons — Background Color",
+    "name": "button_background_color",
+    "default": "",
+    "key": "field_cm_instagram_grid_design_button_background_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 08 · Instagram Grid (`instagram_grid`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Buttons — Text Color",
+    "name": "button_text_color",
+    "default": "",
+    "key": "field_cm_instagram_grid_design_button_text_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 08 · Instagram Grid (`instagram_grid`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Inputs — Background Color",
+    "name": "input_background_color",
+    "default": "",
+    "key": "field_cm_instagram_grid_design_input_background_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 08 · Instagram Grid (`instagram_grid`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Inputs — Text Color",
+    "name": "input_text_color",
+    "default": "",
+    "key": "field_cm_instagram_grid_design_input_text_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 08 · Instagram Grid (`instagram_grid`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Section — Border Color",
+    "name": "border_color",
+    "default": "",
+    "key": "field_cm_instagram_grid_design_border_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 08 · Instagram Grid (`instagram_grid`) → Section — Optional Colors (group)",
+    "type": "color_picker",
+    "label": "Hero / Project — Overlay Color",
+    "name": "overlay_color",
+    "default": "",
+    "key": "field_cm_instagram_grid_design_overlay_color"
+  },
+  {
+    "group": "Cedar Mill — Homepage Sections",
+    "path": "Cedar Mill — Homepage Sections → 08 · Instagram Grid (`instagram_grid`) → Section — Optional Colors (group)",
+    "type": "range",
+    "label": "Hero / Project — Overlay Opacity",
+    "name": "overlay_opacity",
+    "default": 65,
+    "key": "field_cm_instagram_grid_design_overlay_opacity"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options",
+    "type": "tab",
+    "label": "Brand",
+    "name": "brand_tab",
+    "default": null,
+    "key": "field_cm_brand_tab"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options",
+    "type": "text",
+    "label": "Company Name",
+    "name": "cm_brand_name",
+    "default": "",
+    "key": "field_cm_brand_name"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options",
+    "type": "tab",
+    "label": "Header",
+    "name": "header_tab",
+    "default": null,
+    "key": "field_cm_header_tab"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options",
+    "type": "image",
+    "label": "Header — Logo",
+    "name": "cm_header_logo",
+    "default": null,
+    "key": "field_cm_header_logo"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options",
+    "type": "text",
+    "label": "Header — Top Bar Text",
+    "name": "cm_header_topbar",
+    "default": "",
+    "key": "field_cm_header_topbar"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options",
+    "type": "repeater",
+    "label": "Header — CTA Buttons",
+    "name": "cm_header_buttons",
+    "default": null,
+    "key": "field_cm_header_buttons"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options → Header — CTA Buttons (row)",
+    "type": "link",
+    "label": "Button — Link",
+    "name": "button_link",
+    "default": null,
+    "key": "field_cm_header_button_link"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options → Header — CTA Buttons (row)",
+    "type": "select",
+    "label": "Button — Style",
+    "name": "button_style",
+    "default": "solid",
+    "key": "field_cm_header_button_style"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options",
+    "type": "color_picker",
+    "label": "Header — Background Color",
+    "name": "cm_header_background_color",
+    "default": "",
+    "key": "field_cm_header_background_color"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options",
+    "type": "color_picker",
+    "label": "Header — Navigation Text Color",
+    "name": "cm_header_text_color",
+    "default": "",
+    "key": "field_cm_header_text_color"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options",
+    "type": "color_picker",
+    "label": "Dropdown — Background Color",
+    "name": "cm_header_dropdown_background_color",
+    "default": "",
+    "key": "field_cm_header_dropdown_background_color"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options",
+    "type": "color_picker",
+    "label": "Dropdown — Text Color",
+    "name": "cm_header_dropdown_text_color",
+    "default": "",
+    "key": "field_cm_header_dropdown_text_color"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options",
+    "type": "color_picker",
+    "label": "Top Bar — Background Color",
+    "name": "cm_header_topbar_background_color",
+    "default": "",
+    "key": "field_cm_header_topbar_background_color"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options",
+    "type": "color_picker",
+    "label": "Top Bar — Text Color",
+    "name": "cm_header_topbar_text_color",
+    "default": "",
+    "key": "field_cm_header_topbar_text_color"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options",
+    "type": "color_picker",
+    "label": "Header Buttons — Background Color",
+    "name": "cm_header_button_background_color",
+    "default": "",
+    "key": "field_cm_header_button_background_color"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options",
+    "type": "color_picker",
+    "label": "Header Buttons — Text Color",
+    "name": "cm_header_button_text_color",
+    "default": "",
+    "key": "field_cm_header_button_text_color"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options",
+    "type": "tab",
+    "label": "Footer",
+    "name": "footer_tab",
+    "default": null,
+    "key": "field_cm_footer_tab"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options",
+    "type": "image",
+    "label": "Footer — Logo",
+    "name": "cm_footer_logo",
+    "default": null,
+    "key": "field_cm_footer_logo"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options",
+    "type": "text",
+    "label": "Footer — Tagline",
+    "name": "cm_footer_tagline",
+    "default": "",
+    "key": "field_cm_footer_tagline"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options",
+    "type": "textarea",
+    "label": "Footer — Description",
+    "name": "cm_footer_description",
+    "default": "",
+    "key": "field_cm_footer_description"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options",
+    "type": "email",
+    "label": "Footer — Contact Email",
+    "name": "cm_footer_email",
+    "default": "",
+    "key": "field_cm_footer_email"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options",
+    "type": "text",
+    "label": "Footer — Contact Phone",
+    "name": "cm_footer_phone",
+    "default": "",
+    "key": "field_cm_footer_phone"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options",
+    "type": "repeater",
+    "label": "Footer — Social Links",
+    "name": "cm_footer_socials",
+    "default": null,
+    "key": "field_cm_footer_socials"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options → Footer — Social Links (row)",
+    "type": "select",
+    "label": "Social — Icon",
+    "name": "social_icon",
+    "default": "none",
+    "key": "field_cm_social_icon"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options → Footer — Social Links (row)",
+    "type": "link",
+    "label": "Social — Link",
+    "name": "social_link",
+    "default": null,
+    "key": "field_cm_social_link"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options",
+    "type": "repeater",
+    "label": "Footer — Office Locations",
+    "name": "cm_footer_offices",
+    "default": null,
+    "key": "field_cm_footer_offices"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options → Footer — Office Locations (row)",
+    "type": "text",
+    "label": "Office — Name",
+    "name": "office_name",
+    "default": "",
+    "key": "field_cm_office_name"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options → Footer — Office Locations (row)",
+    "type": "textarea",
+    "label": "Office — Address",
+    "name": "office_address",
+    "default": "",
+    "key": "field_cm_office_address"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options → Footer — Office Locations (row)",
+    "type": "text",
+    "label": "Office — Phone",
+    "name": "office_phone",
+    "default": "",
+    "key": "field_cm_office_phone"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options → Footer — Office Locations (row)",
+    "type": "email",
+    "label": "Office — Email",
+    "name": "office_email",
+    "default": "",
+    "key": "field_cm_office_email"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options → Footer — Office Locations (row)",
+    "type": "link",
+    "label": "Office — Visit Link",
+    "name": "office_link",
+    "default": null,
+    "key": "field_cm_office_link"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options",
+    "type": "text",
+    "label": "Footer — Copyright",
+    "name": "cm_footer_copyright",
+    "default": "",
+    "key": "field_cm_footer_copyright"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options",
+    "type": "color_picker",
+    "label": "Footer — Background Color",
+    "name": "cm_footer_background_color",
+    "default": "",
+    "key": "field_cm_footer_background_color"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options",
+    "type": "color_picker",
+    "label": "Footer — Text Color",
+    "name": "cm_footer_text_color",
+    "default": "",
+    "key": "field_cm_footer_text_color"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options",
+    "type": "color_picker",
+    "label": "Footer — Description / Copyright Color",
+    "name": "cm_footer_muted_text_color",
+    "default": "",
+    "key": "field_cm_footer_muted_text_color"
+  },
+  {
+    "group": "Cedar Mill — Header & Footer Options",
+    "path": "Cedar Mill — Header & Footer Options",
+    "type": "color_picker",
+    "label": "Footer — Link Color",
+    "name": "cm_footer_link_color",
+    "default": "",
+    "key": "field_cm_footer_link_color"
+  }
+]

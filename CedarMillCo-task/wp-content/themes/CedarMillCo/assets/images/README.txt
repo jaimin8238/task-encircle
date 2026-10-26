@@ -1,0 +1,1 @@
+Original logo and homepage photos from the user-provided Cedar Mill design reference. Imported into Media Library only when the user chooses the reference loader. All frontend image references come from ACF values.
